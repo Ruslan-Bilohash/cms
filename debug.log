@@ -1,0 +1,317 @@
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Profile.php started: 2025-04-04 21:26:19
+DB included: 2025-04-04 21:26:19
+Functions included: 2025-04-04 21:26:19
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 20:53:05","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:26:23
+DB included: 2025-04-04 21:26:23
+Functions included: 2025-04-04 21:26:23
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 20:53:05","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:26:58
+DB included: 2025-04-04 21:26:58
+Functions included: 2025-04-04 21:26:58
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 20:53:05","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:26:58
+DB included: 2025-04-04 21:26:58
+Functions included: 2025-04-04 21:26:58
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":1,"created_at":"2025-04-04 20:53:05","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:26:59
+DB included: 2025-04-04 21:26:59
+Functions included: 2025-04-04 21:26:59
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":1,"created_at":"2025-04-04 20:53:05","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:32:42
+DB included: 2025-04-04 21:32:42
+Functions included: 2025-04-04 21:32:42
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":1,"created_at":"2025-04-04 20:53:05","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:33:30
+DB included: 2025-04-04 21:33:30
+Functions included: 2025-04-04 21:33:30
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":1,"created_at":"2025-04-04 20:53:05","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:33:40
+DB included: 2025-04-04 21:33:40
+Functions included: 2025-04-04 21:33:40
+User ID: 15
+User data fetched: {"id":15,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":1,"created_at":"2025-04-04 20:53:05","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:34:54
+DB included: 2025-04-04 21:34:54
+Functions included: 2025-04-04 21:34:54
+User ID: 18
+User data fetched: {"id":18,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:34:54","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:35:04
+DB included: 2025-04-04 21:35:04
+Functions included: 2025-04-04 21:35:04
+User ID: 18
+User data fetched: {"id":18,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:34:54","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:35:30
+DB included: 2025-04-04 21:35:30
+Functions included: 2025-04-04 21:35:30
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 21:36:39
+DB included: 2025-04-04 21:36:39
+Functions included: 2025-04-04 21:36:39
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 21:36:46
+DB included: 2025-04-04 21:36:46
+Functions included: 2025-04-04 21:36:46
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-04 22:57:44
+DB included: 2025-04-04 22:57:44
+Functions included: 2025-04-04 22:57:44
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-04 22:58:56
+DB included: 2025-04-04 22:58:56
+Functions included: 2025-04-04 22:58:56
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-05 01:11:31
+DB included: 2025-04-05 01:11:31
+Functions included: 2025-04-05 01:11:31
+User not logged in, redirecting: 2025-04-05 01:11:31
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-05 13:18:40
+DB included: 2025-04-05 13:18:40
+Functions included: 2025-04-05 13:18:40
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-05 16:32:58
+DB included: 2025-04-05 16:32:58
+Functions included: 2025-04-05 16:32:58
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Profile.php started: 2025-04-05 17:10:34
+DB included: 2025-04-05 17:10:34
+Functions included: 2025-04-05 17:10:34
+User ID: 19
+User data fetched: {"id":19,"contact":"","password":"","role":"customer","first_name":"Ruslan","last_name":"Bilohash","nickname":"Meistru_lt","profile_completed":0,"created_at":"2025-04-04 21:35:30","photo":"\/public\/uploads\/users\/5351698956_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5351698956"}
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Photo URL: https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg
+Photo saved to: /public/uploads/users/5003827145_telegram_avatar.jpg
+Profile.php started: 2025-04-05 17:23:52
+DB included: 2025-04-05 17:23:52
+Functions included: 2025-04-05 17:23:52
+User ID: 20
+User data fetched: {"id":20,"contact":"","password":"","role":"customer","first_name":"\u0410\u043b\u0456\u043d\u0447\u0435\u0441","last_name":"","nickname":"MeowOGkush","profile_completed":0,"created_at":"2025-04-05 17:23:52","photo":"\/public\/uploads\/users\/5003827145_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5003827145"}
+Profile.php started: 2025-04-05 17:23:56
+DB included: 2025-04-05 17:23:56
+Functions included: 2025-04-05 17:23:56
+User not logged in, redirecting: 2025-04-05 17:23:56
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Photo URL: https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg
+Photo saved to: /public/uploads/users/5003827145_telegram_avatar.jpg
+Profile.php started: 2025-04-05 17:24:25
+DB included: 2025-04-05 17:24:25
+Functions included: 2025-04-05 17:24:25
+User ID: 21
+User data fetched: {"id":21,"contact":"","password":"","role":"customer","first_name":"\u0410\u043b\u0456\u043d\u0447\u0435\u0441","last_name":"","nickname":"MeowOGkush","profile_completed":0,"created_at":"2025-04-05 17:24:24","photo":"\/public\/uploads\/users\/5003827145_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5003827145"}
+Request: /checkout/23 | Product ID: 23 | Time: 2025-04-06 22:00:42
+Request: /checkout/23 | Product ID: 23 | Time: 2025-04-06 22:01:57
+Request: /checkout/23 | Product ID: 23 | Time: 2025-04-06 22:02:05
+Request: /checkout/24 | Product ID: 24 | Time: 2025-04-06 22:03:39
+Request: /checkout/36 | Product ID: 36 | Time: 2025-04-06 22:03:42
+Request: /checkout/40 | Product ID: 40 | Time: 2025-04-06 22:14:00
+Request: /checkout/40 | Product ID: 40 | Time: 2025-04-06 22:35:43
+Request: /checkout/23 | Product ID: 23 | Time: 2025-04-06 22:37:16
+Request: /checkout/23 | Product ID: 23 | Time: 2025-04-06 23:07:37
+[2025-04-08 15:58:38] Старт парсинга
+[2025-04-08 15:58:38] Запрос к URL: https://www.google.com/search?q=%D0%BB%D1%8E%D0%B1%D0%BB%D1%8E+meistru.lt&start=0
+[2025-04-08 15:58:38] Запрос к URL: https://www.google.com/search?q=%D0%BB%D1%8E%D0%B1%D0%BB%D1%8E+meistru.lt&start=10
+Profile.php started: 2025-04-15 23:42:18
+DB included: 2025-04-15 23:42:18
+Functions included: 2025-04-15 23:42:18
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-15 23:49:40
+DB included: 2025-04-15 23:49:40
+Functions included: 2025-04-15 23:49:40
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-15 23:55:07
+DB included: 2025-04-15 23:55:07
+Functions included: 2025-04-15 23:55:07
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-15 23:55:43
+DB included: 2025-04-15 23:55:43
+Functions included: 2025-04-15 23:55:43
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 16:58:34
+DB included: 2025-04-17 16:58:34
+Functions included: 2025-04-17 16:58:34
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 16:58:58
+DB included: 2025-04-17 16:58:58
+Functions included: 2025-04-17 16:58:58
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 16:59:23
+DB included: 2025-04-17 16:59:23
+Functions included: 2025-04-17 16:59:23
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":null,"last_name":null,"nickname":null,"profile_completed":0,"created_at":"2025-04-15 23:42:17","photo":null,"about":null,"city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 16:59:23
+DB included: 2025-04-17 16:59:23
+Functions included: 2025-04-17 16:59:23
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":"\u0418\u043c\u044f","last_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f","nickname":"\u041d\u0438\u043a\u043d\u0435\u0439\u043c","profile_completed":1,"created_at":"2025-04-15 23:42:17","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 17:01:20
+DB included: 2025-04-17 17:01:20
+Functions included: 2025-04-17 17:01:20
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":"\u0418\u043c\u044f","last_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f","nickname":"\u041d\u0438\u043a\u043d\u0435\u0439\u043c","profile_completed":1,"created_at":"2025-04-15 23:42:17","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 18:13:36
+DB included: 2025-04-17 18:13:36
+Functions included: 2025-04-17 18:13:36
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":"\u0418\u043c\u044f","last_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f","nickname":"\u041d\u0438\u043a\u043d\u0435\u0439\u043c","profile_completed":1,"created_at":"2025-04-15 23:42:17","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 18:15:06
+DB included: 2025-04-17 18:15:06
+Functions included: 2025-04-17 18:15:06
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":"\u0418\u043c\u044f","last_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f","nickname":"\u041d\u0438\u043a\u043d\u0435\u0439\u043c","profile_completed":1,"created_at":"2025-04-15 23:42:17","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":null}
+Profile.php started: 2025-04-17 19:45:32
+DB included: 2025-04-17 19:45:32
+Functions included: 2025-04-17 19:45:32
+User ID: 22
+User data fetched: {"id":22,"contact":"+37012345678","password":"$2y$10$Cw2F6.3RwL88nNzhyICRcuuN.2lVy1oH01h\/1ROIOYAen\/1yhf4xC","role":"customer","first_name":"\u0418\u043c\u044f","last_name":"\u0424\u0430\u043c\u0438\u043b\u0438\u044f","nickname":"\u041d\u0438\u043a\u043d\u0435\u0439\u043c","profile_completed":1,"created_at":"2025-04-15 23:42:17","photo":null,"about":"","city_id":null,"category_id":null,"telegram_id":null}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-04-18 17:37:46
+DB included: 2025-04-18 17:37:46
+Functions included: 2025-04-18 17:37:46
+User not logged in, redirecting: 2025-04-18 17:37:46
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Photo URL: https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg
+Photo saved to: /public/uploads/users/5003827145_telegram_avatar.jpg
+Profile.php started: 2025-04-18 17:37:59
+DB included: 2025-04-18 17:37:59
+Functions included: 2025-04-18 17:37:59
+User ID: 21
+User data fetched: {"id":21,"contact":"","password":"","role":"customer","first_name":"\u0410\u043b\u0456\u043d\u0447\u0435\u0441","last_name":"","nickname":"MeowOGkush","profile_completed":0,"created_at":"2025-04-05 17:24:24","photo":"\/public\/uploads\/users\/5003827145_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5003827145"}
+Telegram POST received: {"id":5003827145,"first_name":"Алінчес","username":"MeowOGkush","photo_url":"https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg"}
+Photo URL: https://t.me/i/userpic/320/iHS_rtTcqLiozGl4yoILqWnHLEeZaTQe5lWLveDJdW90y8KjcsyGtUFP-OUsp1CZ.jpg
+Photo saved to: /public/uploads/users/5003827145_telegram_avatar.jpg
+Profile.php started: 2025-04-18 17:38:31
+DB included: 2025-04-18 17:38:31
+Functions included: 2025-04-18 17:38:31
+User ID: 21
+User data fetched: {"id":21,"contact":"","password":"","role":"customer","first_name":"\u0410\u043b\u0456\u043d\u0447\u0435\u0441","last_name":"","nickname":"MeowOGkush","profile_completed":0,"created_at":"2025-04-05 17:24:24","photo":"\/public\/uploads\/users\/5003827145_telegram_avatar.jpg","about":null,"city_id":null,"category_id":null,"telegram_id":"5003827145"}
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Telegram POST received: {"id":5351698956,"first_name":"Ruslan","last_name":"Bilohash","username":"Meistru_lt","photo_url":"https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg"}
+Photo URL: https://t.me/i/userpic/320/wXb8ONX6Zt4gG3EJfsc7PoKh3moQ0vrv4A78przIBueVCOrMoY1CfU3JYhJCmdAW.jpg
+Photo saved to: /public/uploads/users/5351698956_telegram_avatar.jpg
+Profile.php started: 2025-05-02 14:00:15
+DB included: 2025-05-02 14:00:15
+Functions included: 2025-05-02 14:00:15
+User not logged in, redirecting: 2025-05-02 14:00:15
+Profile.php started: 2025-11-03 15:07:27
+DB included: 2025-11-03 15:07:27
+Functions included: 2025-11-03 15:07:27
+User not logged in, redirecting: 2025-11-03 15:07:27
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32
+Profile.php started: 2025-12-06 18:40:32
+DB included: 2025-12-06 18:40:32
+Functions included: 2025-12-06 18:40:32
+User not logged in, redirecting: 2025-12-06 18:40:32

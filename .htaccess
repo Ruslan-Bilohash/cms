@@ -1,0 +1,69 @@
+# Включаем механизм переписывания URL
+RewriteEngine On
+# Устанавливаем базовый путь для всех правил
+RewriteBase /
+
+# Указываем файл по умолчанию для корневого URL
+DirectoryIndex /templates/default/index.php
+
+<IfModule mod_rewrite.c>
+    # Исключения: не применять правила к указанным путям
+    RewriteRule ^admin(/|$) - [L]
+    RewriteRule ^templates/default/search_products.php$ - [L]
+    RewriteRule ^uploads(/|$) - [L] # Исключение для /uploads/, чтобы sitemap.xml был доступен
+
+    # Главная страница
+    RewriteRule ^$ /templates/default/index.php [L]
+
+    # Магазин и связанные страницы
+    RewriteRule ^shop/?$ /templates/default/shop.php [L,QSA]
+    RewriteRule ^shop/([a-z0-9-]+)/?$ /templates/default/shop_product.php?url=$1 [L,QSA]
+    RewriteRule ^shop_category/?$ /templates/default/shop_category.php [L]
+    RewriteRule ^shop_category/([0-9]+)/?$ /templates/default/shop_category.php?id=$1 [L]
+    RewriteRule ^shop_product/([0-9]+)/?$ /templates/default/shop_product.php?id=$1 [L]
+    RewriteRule ^cart/?$ /templates/default/cart.php [L,QSA]
+    RewriteRule ^checkout/([0-9]+)/?$ /templates/default/shop_checkout.php?product_id=$1 [L,QSA]
+    RewriteRule ^shop_success/?$ /templates/default/shop_success.php [L]
+    RewriteRule ^payment_process/?$ /templates/default/payment_process.php [L]
+    RewriteRule ^order_success/?$ /shop_success [R=301,L] # Редирект с /order_success на /shop_success
+	RewriteRule ^newpost/?$ /templates/default/newpost_traking.php [L,QSA]
+
+
+    # Новости
+    RewriteRule ^news/?$ /templates/default/news.php [L,QSA]
+    RewriteRule ^news\?category_id=([0-9]+)$ /templates/default/news.php?category_id=$1 [L,QSA]
+    RewriteRule ^news_category/?$ /templates/default/news_category.php [L]
+    RewriteRule ^news_cat/([0-9]+)/?$ /templates/default/news_category.php?id=$1 [L]
+    RewriteRule ^news/([a-zA-Z0-9_-]+)/?$ /templates/default/news_full.php?custom_url=$1 [L,QSA]
+	RewriteRule ^booking/?$ /templates/default/booking.php [L,QSA]
+
+    # Тендеры
+    RewriteRule ^tenders/?$ /templates/default/tenders.php [L,QSA]
+    RewriteRule ^tenders\?city_id=([0-9]+)$ /templates/default/tenders.php?city_id=$1 [L,QSA]
+    RewriteRule ^tenders_full/([0-9]+)/?$ /templates/default/tenders_full.php?id=$1 [L]
+
+    # Категории
+    RewriteRule ^category/?$ /templates/default/category.php [L]
+    RewriteRule ^category\?id=([0-9]+)$ /templates/default/category.php?id=$1 [L,QSA]
+
+    # Статические страницы
+    RewriteRule ^add_review/?$ /templates/default/add_review.php [L]
+    RewriteRule ^add_tender/?$ /templates/default/add_tender.php [L]
+    RewriteRule ^feedback/?$ /templates/default/feedback.php [L]
+    RewriteRule ^login/?$ /templates/default/login.php [L]
+    RewriteRule ^logout/?$ /templates/default/logout.php [L]
+    RewriteRule ^profile/?$ /templates/default/profile.php [L]
+    RewriteRule ^register?$ /templates/default/register.php [L]
+    RewriteRule ^all_pages/?$ /templates/default/all_pages.php [L]
+
+    # Доступ к статическим файлам в /templates/default/ (CSS, JS и т.д.)
+    RewriteRule ^templates/default/(.*)$ /templates/default/$1 [L]
+
+    # Обработка динамических страниц (все остальное перенаправляем на page.php)
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.+?)/?$ /templates/default/page.php [L,QSA]
+
+    # Обработка 404
+    ErrorDocument 404 /templates/default/404.php
+</IfModule>
