@@ -1,0 +1,69 @@
+# ОС та тимчасові файли редакторів
+.DS_Store
+Thumbs.db
+*.bak
+*.swp
+*.swo
+*~
+
+# Чутливі конфіги (ніколи не комітити!)
+includes/config.php
+.env
+.env.*
+config.php
+*.env.local
+*.env.development
+*.env.production
+
+# Кеш, бекапи, логи, cron-результати
+cache/*
+!cache/.gitkeep
+backups/*
+!backups/.gitkeep
+cron/*.log
+debug.log
+error_log
+php_error.log
+access.log
+*.log.*
+
+# Завантажені користувачами файли
+uploads/*
+!uploads/.gitkeep
+uploads_temp/
+files/
+
+# Тимчасові та старі файли
+install.php               # видаляється після інсталяції
+install_log.txt
+note.txt
+*.old
+*.backup
+*.tmp
+debug.log
+
+# Архіви та бекапи проєкту
+*.zip
+*.tar.gz
+templates.zip
+
+# IDE / редактори
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Тестові / локальні директорії
+test/
+local/
+dev/
+my-test.php
+
+# Якщо з'явиться Composer (поки не потрібно, але на майбутнє)
+vendor/
+composer.lock
+composer.phar
+
+# Інше сміття
+*.sqlite
+*.sqlite3
