@@ -91,12 +91,24 @@ cms/
 Готовий допомогти з доопрацюванням, перекладом чи додаванням фіч! ⭐ Зірочка на GitHub дуже мотивує 🙂
 ```
 
-### Що ще можу зробити
-- Додати скріншоти в README (якщо скинеш — вставлю посилання)
-- Створити окремий `docs/` з детальною документацією по кожній таблиці
-- Згенерувати `CONTRIBUTING.md`, `LICENSE`, `.gitignore`
-- Перекласти на англійську теж
+### MIT License
 
-Просто скажи — зроблю за 5 хвилин. Проект крутий, просто документації майже не було, тому тепер буде 🔥
+Copyright (c) 2025 Ruslan Bilohash
 
-Готовий вставляти в репозиторій?
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
