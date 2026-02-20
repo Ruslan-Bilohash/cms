@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_news.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_cat_news.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_shop_products.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_shop_categories.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_pages.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_tenders.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap_tenders_cat.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://edukvam.com/uploads/sitemap.xml</loc>
+    <lastmod>2025-12-23</lastmod>
+  </sitemap>
+</sitemapindex>
