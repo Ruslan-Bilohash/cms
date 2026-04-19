@@ -1,12 +1,9 @@
-
 <?php
 session_start();
-
 // Проверяем параметр принудительного переключения версии
 if (isset($_GET['force_mobile'])) {
     $_SESSION['preferred_version'] = $_GET['force_mobile'] == 1 ? 'mobile' : 'desktop';
 }
-
 // Проверяем наличие необходимых файлов
 $required_files = [
     $_SERVER['DOCUMENT_ROOT'] . '/includes/db.php',
@@ -19,7 +16,6 @@ foreach ($required_files as $file) {
     }
     require_once $file;
 }
-
 // Загружаем настройки
 $settings = get_settings();
 if (empty($settings)) {
@@ -32,13 +28,11 @@ if (empty($settings)) {
     ];
     error_log("Использованы настройки по умолчанию в index.php.");
 }
-
 // Выбор пути к шаблонам
 $is_mobile_device = isMobileDevice();
 $preferred_version = $_SESSION['preferred_version'] ?? ($is_mobile_device ? 'mobile' : 'desktop');
 $templatePath = ($settings['mobile_version'] ?? 0) && $preferred_version === 'mobile' ? '/templates/mobile/' : '/templates/default/';
 $cache_path = $templatePath;
-
 // Проверяем кеш страницы
 $current_url = $_SERVER['REQUEST_URI'];
 $cache_key = 'page_' . md5($current_url);
@@ -47,39 +41,31 @@ if ($cached_content !== false && should_cache_path($cache_path)) {
     echo $cached_content;
     exit;
 }
-
 ob_start();
-
 // Проверяем подключение к базе данных
 if (!$conn) {
     die("Ошибка подключения к базе данных: " . mysqli_connect_error());
 }
-
 // Примеры запросов с кешированием таблиц
 $carousel = cache_query("SELECT * FROM carousel LIMIT 5", $conn, $cache_path, 'carousel');
 $products = cache_query("SELECT * FROM shop_products LIMIT 10", $conn, $cache_path, 'shop_products');
-
 // Кеширование статических файлов
 $js_content = cache_static_file($templatePath . 'js/js.js');
 $css_content = cache_static_file($templatePath . 'css/style.css');
 $style_php_content = cache_static_file($templatePath . 'css/style.php');
-
 // Кеширование внешних ресурсов
 $font_content = cache_external_resource('https://fonts.googleapis.com/css?family=Roboto', 'fonts');
 $icons_content = cache_external_resource('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css', 'icons');
-
 // Установка заголовков безопасности
 header("X-Content-Type-Options: nosniff");
 header("X-Frame-Options: DENY");
 header("X-XSS-Protection: 1; mode=block");
 header("Strict-Transport-Security: max-age=31536000; includeSubDomains");
 header("Content-Security-Policy: default-src 'self'; script-src 'self'; object-src 'none';");
-
 $ip_address = $_SERVER['REMOTE_ADDR'];
 $page_url = $_SERVER['REQUEST_URI'];
 $user_agent = $_SERVER['HTTP_USER_AGENT'] ?? '';
 list($device_type, $browser) = detectDeviceAndBrowser($user_agent);
-
 // Логирование посетителей
 $stmt = $conn->prepare("INSERT INTO visitor_logs (ip_address, page_url, device_type, browser) VALUES (?, ?, ?, ?)");
 if ($stmt) {
@@ -89,17 +75,14 @@ if ($stmt) {
 } else {
     error_log("Ошибка подготовки запроса для visitor_logs: " . $conn->error);
 }
-
 // CSRF-токен
 if (!isset($_SESSION['csrf_token'])) {
     $_SESSION['csrf_token'] = bin2hex(random_bytes(32));
 }
-
 // Загрузка данных с кешированием запросов
 $categories = cache_query("SELECT * FROM categories", $conn, $cache_path);
 $cities = cache_query("SELECT * FROM cities", $conn, $cache_path);
 $news_categories = cache_query("SELECT * FROM news_categories", $conn, $cache_path);
-
 // Загрузка новостей с учетом настроек
 $show_news = $settings['news_on_index'] ?? true;
 $news_limit = $settings['news_limit'] ?? 3;
@@ -109,7 +92,7 @@ if ($show_news) {
     $news_query = "SELECT n.*, c.title AS category_title
                    FROM news n
                    LEFT JOIN news_categories c ON n.category_id = c.id";
-   
+  
     $where_clauses = [];
     if (!empty($news_include_on_index)) {
         $where_clauses[] = "n.category_id IN (" . implode(',', array_map('intval', $news_include_on_index)) . ")";
@@ -117,11 +100,11 @@ if ($show_news) {
     if (!empty($news_exclude_on_index)) {
         $where_clauses[] = "n.category_id NOT IN (" . implode(',', array_map('intval', $news_exclude_on_index)) . ")";
     }
-   
+  
     if (!empty($where_clauses)) {
         $news_query .= " WHERE " . implode(' AND ', $where_clauses);
     }
-   
+  
     $news_query .= " ORDER BY n.created_at DESC LIMIT ?";
     $stmt = $conn->prepare($news_query);
     if ($stmt) {
@@ -134,7 +117,6 @@ if ($show_news) {
         $news = [];
     }
 }
-
 // Метаданные
 $_SESSION['meta'] = [
     'title' => $settings['site_title'] ?? 'Tender CMS',
@@ -146,7 +128,6 @@ $_SESSION['meta'] = [
     'og_type' => $settings['og_type'] ?? 'website',
     'og_url' => $settings['og_url'] ?? 'https://' . $_SERVER['HTTP_HOST']
 ];
-
 // Классы кнопок
 $add_tender_button_size_class = '';
 switch ($settings['add_tender_button_size'] ?? 'large') {
@@ -164,7 +145,6 @@ switch ($settings['button_size'] ?? 'medium') {
     case 'large': $button_size_class = 'btn-lg'; break;
     default: $button_size_class = ''; break;
 }
-
 // Обработка поиска
 $search_query = '';
 $category_id = 0;
@@ -183,7 +163,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['search'])) {
         LEFT JOIN categories c ON t.category_id = c.id
         LEFT JOIN cities ci ON t.city_id = ci.id
         WHERE t.status = 'published'";
-   
+  
     $params = [];
     $types = '';
     if (!empty($search_query)) {
@@ -230,7 +210,6 @@ foreach ($tenders as &$tender) {
     $tender['images'] = !empty($tender['images']) ? json_decode($tender['images'], true) : [];
     $tender['short_desc'] = $tender['short_desc'];
 }
-
 // Проверяем шаблоны
 $header_path = $_SERVER['DOCUMENT_ROOT'] . $templatePath . 'header.php';
 $meta_path = $_SERVER['DOCUMENT_ROOT'] . $templatePath . 'meta.php';
@@ -258,7 +237,6 @@ if (file_exists($meta_path)) {
         </div>
     </div>
 </div>
-
 <!-- Навигация -->
 <nav class="navbar navbar-expand-md navbar-dark bg-primary shadow mb-5">
     <div class="container">
@@ -294,6 +272,9 @@ if (file_exists($meta_path)) {
 </nav>
 
 <?php require_once $_SERVER['DOCUMENT_ROOT'] . $templatePath . 'brand-carusel.php'; ?>
+
+<!-- 🔥 ПРОМО-БЛОК MODULES ADMIN PANEL — подключён здесь -->
+<?php require_once $_SERVER['DOCUMENT_ROOT'] . $templatePath . 'modules-promo.php'; ?>
 
 <?php if ($show_news && !empty($news)): ?>
     <section class="container py-5 bg-white shadow rounded">
@@ -370,7 +351,6 @@ if (file_exists($carousel_path)) {
     echo "<!-- Не удалось найти carusel.php -->";
 }
 ?>
-
 <?php
 if (file_exists($footer_path)) {
     include $footer_path;
